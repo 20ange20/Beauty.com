@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Beauty.com</title>
+  <script src="script.js" defer> </script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+  <link rel="shortcut icon" href="icon/favicon.ico">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand">
+        Beauty.com</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Página inicial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="produtos.html">Produtos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contato.html">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- carrossel -->
+  <div id="banner-carousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="banners/banner1.png" class="d-block w-100" alt="Banner 1">
+        <div class="carousel-caption d-flex align-items-center justify-content-center">
+          <div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="banners/banner2.png" class="d-block w-100" alt="Banner 2">
+        <div class="carousel-caption d-flex align-items-center justify-content-center">
+        </div>
+      </div>
+      
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#banner-carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#banner-carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Próximo</span>
+    </button>
+  </div>
+
+  <!--Produtos em Destaque -->
+  <section class="produtos_em_destaque">
+    <div class="container">
+      <h2 class="text-center mb-5">Produtos em Destaque</h2>
+      <div class="row">
+        <!-- Produto 1 -->
+        <div class="col-md-4 mb-4">
+          <div class="card product-card">
+            <img src="img/rimel.png" class="card-img-top" alt="Produto 1">
+            <div class="card-body">
+              <h5 class="card-title"><strong>R$6,99</strong></h5>
+              <p class="card-text">Rímel Colossal - Volume extra</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+        </div>
+        <!-- Produto 2 -->
+        <div class="col-md-4 mb-4">
+          <div class="card product-card">
+            <img src="img/delineador.jpg" class="card-img-top" alt="Produto 2">
+            <div class="card-body">
+              <h5 class="card-title"><strong>R$ 9,99</strong></h5>
+              <p class="card-text">Delineador líquido - 2,5 ml </p>
+              <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+        </div>
+        <!-- Produto 3 -->
+        <div class="col-md-4 mb-4">
+          <div class="card product-card">
+            <img src="img/batom.jpg" class="card-img-top" alt="Produto 3">
+            <div class="card-body">
+              <h5 class="card-title"> <strong>R$14,90</strong></h5>
+              <p class="card-text">Batom cremoso Avon - Linha exclusiva</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>   
+        </div>
+        <div class="botao"> <a class="btn btn-primary btn-lg" href="produtos.html">Ver todos</a> </div>
+      
+      </div>
+    </div>
+  </section>
+  <footer class="footer py-5">
+    <div class="container text-center">
+      <p>&copy; 2023 Beauty.com</p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
